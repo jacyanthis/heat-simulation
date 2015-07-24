@@ -1,5 +1,0 @@
-This submission includes two directories, c and fortran, that each include the source code for a functioning heat simulation, as described in the PDF report submitted on Canvas, as well as a Makefile that provides easy compilation. A "make" command in the home directory will compile both C and Fortran versions, while "make C" and "make Fortran" will compile each version respectively. Both directories include a main program and helper files. In c, they are "io_funcs.c" and "update_funcs.c", which contain source code for helper functions for input/output and heat updates respectively, as well as header files for each of these. In Fortran, "io_module.f90" and "update_module.f90" fulfill the same purposes. For convenience, a "make clean" command in the main directory will remove all files except those described above.
-
-Also, to run the executables built, you must include three arguments, in order: input file name, frequency of output file creation, and output file basename. 
-
-Thanks for using this software!
